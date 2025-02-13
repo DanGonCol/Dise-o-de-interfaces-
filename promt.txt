@@ -1,0 +1,7 @@
+
+Genera un sistema de navegación en HTML con un menú lateral y un área de contenido que muestra diferentes páginas dentro de un  
+El menú debe incluir las opciones: "Personas", "Animales", "Colores" y "Cosas".  
+Al hacer clic en cada opción, debe cargar la página correspondiente (`persona.html`, `animales.html`, `colores.html`, `cosas.html`) dentro del `<iframe>`.  
+El contenido del `<iframe>` debe estar dentro de un div con clase `content`.  
+La estructura del HTML debe incluir una página principal con el menú y el `iframe`, además de archivos HTML separados para cada opción.  
+También incluye un archivo `inicio.html` que se mostrará por defecto en el `iframe` al cargar la página.   Usa CSS para estilizar el menú con un fondo azul claro y enlaces destacados al pasar el cursor.

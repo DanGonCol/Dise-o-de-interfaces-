@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de Control</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+        }
+        .menu {
+            width: 200px;
+            background-color: #cce5ff;
+            padding: 10px;
+        }
+        .menu a {
+            display: block;
+            padding: 10px;
+            margin: 5px 0;
+            background: #b3d7ff;
+            text-decoration: none;
+            color: black;
+        }
+        .menu a:hover {
+            background: #99cfff;
+        }
+        .content {
+            flex: 1;
+            padding: 20px;
+            border-left: 2px solid #ccc;
+        }
+        iframe {
+            width: 100%;
+            height: 400px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <h3>Menú</h3>
+        <a href="persona.html" target="navegacion">Personas</a>
+        <a href="animales.html" target="navegacion">Animales</a>
+        <a href="colores.html" target="navegacion">Colores</a>
+        <a href="cosas.html" target="navegacion">Cosas</a>
+    </div>
+    <div class="content">
+        <h2>Panel de Control</h2>
+        <iframe name="navegacion" src="inicio.html"></iframe>
+    </div>
+</body>
+</html>
